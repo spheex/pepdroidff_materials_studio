@@ -1,0 +1,7 @@
+PEPDROID force field
+
+A force field for peptoids by Hoyas et al.
+
+Reference: https://onlinelibrary.wiley.com/doi/10.1002/adts.201800089
+
+The topology and parameters are currently available for (S)-1-phenylethyl side chain (Nspe) in the CHARMM format.
