@@ -1,0 +1,5 @@
+Comparison of the energies obtained with PEPDROID in Materials Studio 18.0 and NAMD 2.13 on the HNspe3.mol2 geometry:
+
+  BOND	ANGLE	DIHEDRAL	IMPROPER	vdW	Electrostatics
+Materials Studio  46.505	16.155	7.534	0.079	62.851	2.548
+NAMD	46.5053	16.1552	7.5342	0.0705	62.851	2.548
