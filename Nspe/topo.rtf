@@ -1,0 +1,245 @@
+MASS -1  C_3   12.0110  C_3   * PEPDROID
+MASS -1  Csc   12.0110  Csc   * PEPDROID
+MASS -1  C_R   12.0110  C_R   * PEPDROID
+MASS -1  Cam   12.0110  Cam   * PEPDROID
+MASS -1  CH2   12.0110  CH2   * PEPDROID
+MASS -1  Cspe  12.0110  Cspe  * PEPDROID
+MASS -1  H_    1.0079  H_    * PEPDROID
+MASS -1  H__A  1.0079  H__A  * PEPDROID
+MASS -1  Ha    1.0079  Ha    * PEPDROID
+MASS -1  Hb    1.0079  Hb    * PEPDROID
+MASS -1  Hcte2 1.0079  Hcte2 * PEPDROID
+MASS -1  Hcter 1.0079  Hcter * PEPDROID
+MASS -1  Nam   14.0070  Nam   * PEPDROID
+MASS -1  Nam2  14.0070  Nam2  * PEPDROID
+MASS -1  Oam   15.9994  Oam   * PEPDROID
+
+AUTOgenerate ANGLES DIHEDRAL
+
+RESI PE1
+ATOM	C     	Cam   	0.25800
+ATOM	CA    	CH2   	0.11400
+ATOM	O     	Oam   	-0.27100
+ATOM	Ha1   	Ha    	0.07900
+ATOM	Ha2   	Ha    	0.07900
+ATOM	N     	Nam2  	0.13500
+ATOM	C1S   	Cspe  	0.06700
+ATOM	H1S   	H_    	0.07700
+ATOM	C31   	C_3   	-0.02600
+ATOM	H13   	H_    	0.02700
+ATOM	H33   	H_    	0.02700
+ATOM	H23   	H_    	0.02700
+ATOM	C11   	C_R   	-0.01100
+ATOM	C22   	C_R   	-0.05500
+ATOM	C66   	C_R   	-0.05500
+ATOM	C33   	C_R   	-0.06200
+ATOM	H22   	H_    	0.06300
+ATOM	C55   	C_R   	-0.06200
+ATOM	H66   	H_    	0.06300
+ATOM	C44   	C_R   	-0.06200
+ATOM	HR3   	H_    	0.06200
+ATOM	H55   	H_    	0.06200
+ATOM	H44   	H_    	0.06200
+ATOM	H1N   	H__A  	0.22900
+ATOM	H2N   	H__A  	0.22900
+BOND	+N   	C     
+BOND	CA    	Ha2   
+BOND	N     	C1S   
+BOND	C31   	H13   
+BOND	C11   	C22   
+BOND	C66   	H66   
+BOND	C55   	C44   
+BOND	C     	CA    
+BOND	CA    	Ha1   
+BOND	C1S   	H1S   
+BOND	C31   	H33   
+BOND	C22   	C33   
+BOND	C33   	HR3   
+BOND	C44   	H44   
+BOND	C     	O     
+BOND	N     	H2N   
+BOND	C1S   	C31   
+BOND	C31   	H23   
+BOND	C22   	H22   
+BOND	C33   	C44   
+BOND	CA    	N     
+BOND	N     	H1N   
+BOND	C1S   	C11   
+BOND	C11   	C66   
+BOND	C66   	C55   
+BOND	C55   	H55   
+IMPR	C     	+N   	CA    	O     
+IMPR	C     	CA    	O     	+N   
+IMPR	C     	O     	+N   	CA    
+IMPR	C11   	C1S   	C66   	C22   
+IMPR	C11   	C66   	C22   	C1S   
+IMPR	C11   	C22   	C1S   	C66   
+IMPR	C22   	C11   	C33   	H22   
+IMPR	C22   	C33   	H22   	C11   
+IMPR	C22   	H22   	C11   	C33   
+IMPR	C66   	C11   	C55   	H66   
+IMPR	C66   	C55   	H66   	C11   
+IMPR	C66   	H66   	C11   	C55   
+IMPR	C33   	C22   	HR3   	C44   
+IMPR	C33   	HR3   	C44   	C22   
+IMPR	C33   	C44   	C22   	HR3   
+IMPR	C55   	C66   	H55   	C44   
+IMPR	C55   	H55   	C44   	C66   
+IMPR	C55   	C44   	C66   	H55   
+IMPR	C44   	C33   	C55   	H44   
+IMPR	C44   	C55   	H44   	C33   
+IMPR	C44   	H44   	C33   	C55   
+
+RESI PE2
+ATOM	N     	Nam   	-0.32500
+ATOM	C1S   	Cspe  	0.05600
+ATOM	CA    	CH2   	0.10000
+ATOM	H1S   	H_    	0.05800
+ATOM	C31   	C_3   	-0.04000
+ATOM	C1R   	C_R   	-0.02600
+ATOM	C     	Cam   	0.24300
+ATOM	Ha1   	Ha    	0.06000
+ATOM	Ha2   	Ha    	0.06000
+ATOM	H13   	H_    	0.02500
+ATOM	H33   	H_    	0.02500
+ATOM	H23   	H_    	0.02500
+ATOM	C2R   	C_R   	-0.05700
+ATOM	C6R   	C_R   	-0.05700
+ATOM	O     	Oam   	-0.27300
+ATOM	C3R   	C_R   	-0.06200
+ATOM	H2R   	H_    	0.06300
+ATOM	C5R   	C_R   	-0.06200
+ATOM	H6R   	H_    	0.06300
+ATOM	C4R   	C_R   	-0.06200
+ATOM	H3R   	H_    	0.06200
+ATOM	H5R   	H_    	0.06200
+ATOM	H4R   	H_    	0.06200
+BOND	C1S   	H1S   
+BOND	CA    	Ha2   
+BOND	C1R   	C6R   
+BOND	C2R   	C3R   
+BOND	C3R   	H3R   
+BOND	C4R   	H4R   
+BOND	N     	C1S   
+BOND	C1S   	C1R   
+BOND	C31   	H13   
+BOND	C1R   	C2R   
+BOND	C2R   	H2R   
+BOND	C3R   	C4R   
+BOND	N     	CA    
+BOND	CA    	Ha1   
+BOND	C31   	H33   
+BOND	C     	O     
+BOND	C6R   	H6R   
+BOND	C5R   	H5R   
+BOND	C1S   	C31   
+BOND	CA    	C     
+BOND	C31   	H23   
+BOND	C     	+N   
+BOND	C6R   	C5R   
+BOND	C5R   	C4R   
+IMPR	N     	-C   	C1S   	CA    
+IMPR	N     	C1S   	CA    	-C   
+IMPR	N     	CA    	-C   	C1S   
+IMPR	C1R   	C1S   	C6R   	C2R   
+IMPR	C1R   	C6R   	C2R   	C1S   
+IMPR	C1R   	C2R   	C1S   	C6R   
+IMPR	C     	CA    	O     	+N   
+IMPR	C     	O     	+N   	CA    
+IMPR	C     	+N   	CA    	O     
+IMPR	C2R   	C1R   	C3R   	H2R   
+IMPR	C2R   	C3R   	H2R   	C1R   
+IMPR	C2R   	H2R   	C1R   	C3R   
+IMPR	C6R   	C1R   	H6R   	C5R   
+IMPR	C6R   	H6R   	C5R   	C1R   
+IMPR	C6R   	C5R   	C1R   	H6R   
+IMPR	C3R   	C2R   	H3R   	C4R   
+IMPR	C3R   	H3R   	C4R   	C2R   
+IMPR	C3R   	C4R   	C2R   	H3R   
+IMPR	C5R   	C6R   	H5R   	C4R   
+IMPR	C5R   	H5R   	C4R   	C6R   
+IMPR	C5R   	C4R   	C6R   	H5R   
+IMPR	C4R   	C3R   	C5R   	H4R   
+IMPR	C4R   	C5R   	H4R   	C3R   
+IMPR	C4R   	H4R   	C3R   	C5R   
+
+RESI PE3
+ATOM	N     	Nam   	-0.32500
+ATOM	C1S   	Cspe  	0.05500
+ATOM	CA    	CH2   	0.10000
+ATOM	H1S   	H_    	0.05800
+ATOM	C31   	C_3   	-0.04000
+ATOM	C1R   	C_R   	-0.02600
+ATOM	C     	Cam   	0.23700
+ATOM	Ha1   	Ha    	0.06000
+ATOM	Ha2   	Ha    	0.06000
+ATOM	H13   	H_    	0.02500
+ATOM	H33   	H_    	0.02500
+ATOM	H23   	H_    	0.02500
+ATOM	C2R   	C_R   	-0.05700
+ATOM	C6R   	C_R   	-0.05700
+ATOM	O     	Oam   	-0.27300
+ATOM	N2A   	Nam   	-0.36700
+ATOM	C3R   	C_R   	-0.06200
+ATOM	H2R   	H_    	0.06300
+ATOM	C5R   	C_R   	-0.06200
+ATOM	H6R   	H_    	0.06300
+ATOM	H1C   	Hcter 	0.15900
+ATOM	H2C   	Hcte2 	0.15900
+ATOM	C4R   	C_R   	-0.06200
+ATOM	H3R   	H_    	0.06200
+ATOM	H5R   	H_    	0.06200
+ATOM	H4R   	H_    	0.06200
+BOND	C1S   	C1R   
+BOND	CA    	C     
+BOND	C1R   	C2R   
+BOND	C2R   	H2R   
+BOND	N2A   	H2C   
+BOND	C5R   	C4R   
+BOND	N     	CA    
+BOND	C1S   	C31   
+BOND	C31   	H23   
+BOND	C1R   	C6R   
+BOND	C2R   	C3R   
+BOND	N2A   	H1C   
+BOND	C5R   	H5R   
+BOND	N     	C1S   
+BOND	CA    	Ha2   
+BOND	C31   	H13   
+BOND	C     	N2A   
+BOND	C6R   	H6R   
+BOND	C3R   	C4R   
+BOND	C4R   	H4R   
+BOND	C1S   	H1S   
+BOND	CA    	Ha1   
+BOND	C31   	H33   
+BOND	C     	O     
+BOND	C6R   	C5R   
+BOND	C3R   	H3R   
+IMPR	N     	-C   	CA    	C1S   
+IMPR	N     	CA    	C1S   	-C   
+IMPR	N     	C1S   	-C   	CA    
+IMPR	C1R   	C1S   	C2R   	C6R   
+IMPR	C1R   	C2R   	C6R   	C1S   
+IMPR	C1R   	C6R   	C1S   	C2R   
+IMPR	C     	CA    	N2A   	O     
+IMPR	C     	N2A   	O     	CA    
+IMPR	C     	O     	CA    	N2A   
+IMPR	C2R   	C1R   	H2R   	C3R   
+IMPR	C2R   	H2R   	C3R   	C1R   
+IMPR	C2R   	C3R   	C1R   	H2R   
+IMPR	C6R   	C1R   	H6R   	C5R   
+IMPR	C6R   	H6R   	C5R   	C1R   
+IMPR	C6R   	C5R   	C1R   	H6R   
+IMPR	N2A   	C     	H2C   	H1C   
+IMPR	N2A   	H2C   	H1C   	C     
+IMPR	N2A   	H1C   	C     	H2C   
+IMPR	C3R   	C2R   	C4R   	H3R   
+IMPR	C3R   	C4R   	H3R   	C2R   
+IMPR	C3R   	H3R   	C2R   	C4R   
+IMPR	C5R   	C6R   	C4R   	H5R   
+IMPR	C5R   	C4R   	H5R   	C6R   
+IMPR	C5R   	H5R   	C6R   	C4R   
+IMPR	C4R   	C3R   	C5R   	H4R   
+IMPR	C4R   	C5R   	H4R   	C3R   
+IMPR	C4R   	H4R   	C3R   	C5R   
