@@ -1,0 +1,7 @@
+Peptoids are built from N to C terminus extremity.
+
+This particular sequence is protonated at the N terminus.
+
+If you want to build a peptoid trimer, such as HNspe3.mol2, you will need to assemble the fragments in the following order:
+
+001_Nspe_Nter.mol2, 002_Nspe_Center.mol2, 003_Nspe_Cter.mol2
